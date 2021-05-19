@@ -1,7 +1,32 @@
 body{
     background-color: rgb(77, 70, 70);
+    padding: 0;
+    border: 0;
 }
 .container{
-    margin: 0 auto;
+    margin: 50px auto;
+    background-color: rgb(37, 37, 37);
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
     
+}
+.vagas{
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    justify-content:space-evenly
+}
+.vaga{
+    margin-top: 10px;
+    width: 100px;
+    height: 55px;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    border-left: none;
+    color: white;
+    text-align: center;
+}
+.vaga p {
+    margin-top: 20px;
 }
