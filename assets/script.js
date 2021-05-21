@@ -92,10 +92,10 @@ function carroNaVaga(n, nome, placa) {
     vagaParaAdicionar.classList.add('ocupada');
     vagaParaAdicionar.innerHTML = carro(carroAleatorio());    
 
-    const div = document.createElement('div')
+    const div = document.createElement('div');
     div.classList.add('dadosDoCarro');
     div.classList.add('desc' + n);
-    div.innerHTML = `vaga:${n}, nome: ${nome}, plca: ${placa} <button onclick="apaga(${n})">Apagar</button>`
+    div.innerHTML = `vaga:${n}, nome: ${nome}, plca: ${placa} <button onclick="apaga(${n})">Apagar</button>`;
     carrosJaSalvos.appendChild(div);
 }
 function apaga(n){
