@@ -100,8 +100,8 @@ function carroNaVaga(n, nome, placa) {
 }
 function apaga(n){
     const vagaParaApagar = document.querySelector('.desc' + n);
-    const vagaParaApagarNoEst = document.querySelector('.vaga' + n)
-    vagaParaApagarNoEst.innerHTML = `<p>${n}</p>`
+    const vagaParaApagarNoEst = document.querySelector('.vaga' + n);
+    vagaParaApagarNoEst.innerHTML = `<p>${n}</p>`;
     vagaParaApagar.remove();
     vagaParaApagarNoEst.classList.remove('ocupada');
     
@@ -110,25 +110,25 @@ function apaga(n){
 function carroAleatorio() {
     let sorteio = Math.floor(Math.random() * 8);
     if (sorteio < 1) {
-        sorteio = 1
+        sorteio = 1;
     }
     if (sorteio > 6) {
-        sorteio = 6
+        sorteio = 6;
     }
-    return sorteio
+    return sorteio;
 }
 function carro(n) {
     if (n == 1) {
-        return `<img src="img/carro1.webp" width="100" alt="">`
+        return `<img src="img/carro1.webp" width="100" alt="">`;
     } else if (n == 2) {
-        return `<img src="img/carro2.png" width="100" alt="">`
+        return `<img src="img/carro2.png" width="100" alt="">`;
     } else if (n == 3) {
-        return `<img src="img/carro3.png" width="100" alt="">`
+        return `<img src="img/carro3.png" width="100" alt="">`;
     } else if (n == 4) {
-        return `<img src="img/carro4.png" width="100" alt="">`
+        return `<img src="img/carro4.png" width="100" alt="">`;
     } else if (n == 5) {
-        return `<img src="img/carro5.png" width="100" alt="">`
+        return `<img src="img/carro5.png" width="100" alt="">`;
     } else if (n == 6) {
-        return `<img src="img/carro6.png" width="100" alt="">`
+        return `<img src="img/carro6.png" width="100" alt="">`;
     }
 }
