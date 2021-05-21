@@ -42,7 +42,7 @@ body{
     left: 500px;
     padding: 10px;
 }
- #nome, #placa{
+ .nome, .placa{
     width: 340px;
     
 }
@@ -50,4 +50,29 @@ body{
 .confirmar{
     margin-top: 10px;
     margin-left: 120px;
+}
+.carrosJaSalvos{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 20px;
+}
+.carrosJaSalvos div{
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: rgb(124, 124, 124);
+    margin: 2px;
+    border-radius: 10px;
+}
+.carrosJaSalvos button{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+.carrosJaSalvos button:hover{
+    background-color: rgb(241, 7, 7);
 }
